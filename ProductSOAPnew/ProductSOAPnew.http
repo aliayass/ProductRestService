@@ -1,6 +1,0 @@
-@ProductSOAPnew_HostAddress = http://localhost:5073
-
-GET {{ProductSOAPnew_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
