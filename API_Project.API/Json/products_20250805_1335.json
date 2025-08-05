@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "barkod": "79419",
+    "itemId": "1GSUVBQ4XU",
+    "renk": "Mavi",
+    "beden": "S",
+    "price": 12.12,
+    "stokSayisi": 12
+  },
+  {
+    "id": 2,
+    "barkod": "63784",
+    "itemId": "1GSAVBQ4XU",
+    "renk": "Yeşil",
+    "beden": "M",
+    "price": 22.22,
+    "stokSayisi": 22
+  },
+  {
+    "id": 3,
+    "barkod": "6371284",
+    "itemId": "ASVBQ4XU",
+    "renk": "Kırmızı",
+    "beden": "L",
+    "price": 33.33,
+    "stokSayisi": 33
+  },
+  {
+    "id": 4,
+    "barkod": "227778432",
+    "itemId": "BIL43LHRNZ",
+    "renk": "Yeşil",
+    "beden": "XL",
+    "price": 22.0,
+    "stokSayisi": 12
+  }
+]

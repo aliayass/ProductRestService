@@ -6,7 +6,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace API_Project.API.Migrations
 {
     /// <inheritdoc />
-    public partial class API_ProjectDb : Migration
+    public partial class mig1 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -17,8 +17,8 @@ namespace API_Project.API.Migrations
                 {
                     Id = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    Barkod = table.Column<string>(type: "text", nullable: false),
-                    ItemId = table.Column<int>(type: "integer", nullable: false),
+                    Barkod = table.Column<string>(type: "character varying(10)", maxLength: 10, nullable: false),
+                    ItemId = table.Column<string>(type: "character varying(10)", maxLength: 10, nullable: false),
                     Renk = table.Column<string>(type: "text", nullable: false),
                     Beden = table.Column<string>(type: "text", nullable: false),
                     Price = table.Column<decimal>(type: "numeric", nullable: false),
