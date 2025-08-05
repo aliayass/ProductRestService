@@ -1,6 +1,0 @@
-@SOAPProduct_HostAddress = http://localhost:5211
-
-GET {{SOAPProduct_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
