@@ -40,8 +40,8 @@ API_Project.API/
 ### Adım 1: Projeyi Klonlayın
 
 ```bash
-git clone https://github.com/aliayass/API_Project.API.git
-cd API_Project.API
+git clone https://github.com/aliayass/ProductRestService.git
+cd ProductRestService
 ```
 
 ### Adım 2: Veritabanı Bağlantısını Yapılandırın
@@ -66,6 +66,16 @@ dotnet ef database update
 
 ```bash
 dotnet run
+```
+
+### Adım 5: Testleri Çalıştırın
+
+```bash
+# Tüm testleri çalıştır
+dotnet test
+
+# Değişiklik izleme ile sürekli test (opsiyonel)
+dotnet watch --project ./API_Project.Tests test
 ```
 
 ## 📡 API Endpoints
@@ -291,6 +301,13 @@ dotnet ef database update
 ### .NET 8 ve Entity Framework
 - [.NET 8 Documentation](https://docs.microsoft.com/en-us/dotnet/)
 - [Entity Framework Core](https://docs.microsoft.com/en-us/ef/core/)
+
+## 🧪 Testler
+
+Testler `API_Project.Tests` projesinde xUnit ve FluentAssertions ile yazılmıştır. EF Core InMemory sağlayıcısı sayesinde testler izolasyonlu ve hızlıdır.
+
+- Nasıl çalıştırılır, kapsam toplama ve yazım notları için `API_Project.Tests/README.md` dosyasına bakın.
+- Hedeflenen senaryolar: listeleme, ekleme, güncelleme, silme ve hatalı JSON tipleri doğrulama.
 
 ## 👥 Katkıda Bulunma
 

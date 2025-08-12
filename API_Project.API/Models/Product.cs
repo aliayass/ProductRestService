@@ -21,8 +21,8 @@ public class Product
     public string Renk { get; set; }
 
     public string Beden { get; set; }
-
+    [Required]
     public decimal Price { get; set; }
-
+    [Required]
     public int StokSayisi { get; set; }
 }
